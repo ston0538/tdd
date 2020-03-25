@@ -1,4 +1,6 @@
-# 곱셈 테스트 p.43
+from money.dollar import Dollar
+
+
 def test_multiplication():
     five = Dollar(5)
     five.times(2)
