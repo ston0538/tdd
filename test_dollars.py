@@ -1,14 +1,7 @@
-from unittest import TestCase
+# 곱셈 테스트 p.43
+def test_multiplication():
+    five = Dollar(5)
+    five.times(2)
+    assert five.amount == 10
 
-from money.dollar import Dollar
-
-
-class DollarsTest(TestCase):
-    def testMultiplication(self):
-        five = Dollar(5)
-        five.times(2)
-        self.assertEqual(10, five.amount)
-
-
-if __name__ == '__main__':
-    unittest.main()
+# NameError: name 'Dollar' is not defined
