@@ -5,10 +5,10 @@
 
 class Dollar:
     def __init__(self, amount):
-        self.amount = amount
+        self._amount = amount
+
+    def __eq__(self, other):
+        return self._amount == other._amount
 
     def times(self, multiplier: int):
-        return Dollar(self.amount * multiplier)
-
-    def equals(self, other) -> bool:
-        return self.amount == other.amount
+        return Dollar(self._amount * multiplier)
