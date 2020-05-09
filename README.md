@@ -1,6 +1,6 @@
 # TDD by python
 
-## use unittest, pytetst
+## use unittest, pytest
 
 ## To do
 
