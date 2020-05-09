@@ -13,3 +13,5 @@
 - [ ] hashCode()
 - [ ] Equal null
 - [ ] Equal object
+
+## https://www.notion.so/tddbypython/
