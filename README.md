@@ -14,4 +14,4 @@
 - [ ] Equal null
 - [ ] Equal object
 
-## https://www.notion.so/tddbypython/
+## https://www.notion.so/tddbypython/Get-Started-b3889e1c7d1f40d587c404c564993130
